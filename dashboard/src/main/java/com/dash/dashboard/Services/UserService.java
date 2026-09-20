@@ -14,6 +14,7 @@ public class UserService {
 
     private final RestClient restClient;
 
+    // ive got a bunch of theese tests to clear out
     private String[] baseManifests(String manifestType){
         switch(manifestType){
             case "ubuntu":
